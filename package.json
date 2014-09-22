@@ -1,0 +1,31 @@
+{
+  "name": "gardr-plugin-ext-finnplugins",
+  "version": "0.1.0",
+  "description": "Exposes a global variable 'banner', which can be used hold plugin functions",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/karma/bin/karma start --single-run",
+    "watch": "./node_modules/karma/bin/karma start"
+  },
+  "keywords": [
+    "gardr",
+    "browser"
+  ],
+  "repository": {
+      "type": "git",
+      "url": "https://github.com/gardr/gardr-plugin-ext-finnPlugins.git"
+  },
+  "author": "FINN.no AS",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "~1.9.1",
+    "karma-chai": "~0.1.0",
+    "mocha": "~1.18.2",
+    "karma-mocha": "~0.1.3",
+    "karma-sinon-chai": "~0.1.5",
+    "karma-phantomjs-launcher": "~0.1.2",
+    "karma": "~0.12.1",
+    "karma-browserifast": "~0.4.1"
+  },
+  "dependencies": {}
+}
